@@ -882,6 +882,7 @@ btnRain.onclick=function(){
                         audioMain.play()
                         main.playActive()
                         main.isPlayed=true
+                        btnPlay.click()
                 }
 //btn mode sad:
                 if (index == 3 && !main.isSad) {
