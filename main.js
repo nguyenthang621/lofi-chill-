@@ -695,9 +695,9 @@ const main={
             else{
                 document.exitFullscreen();
                 $(".navbar__title").style.display="flex"
-                elementHide.forEach(function(e){
-                    e.style.display="inline-block"
-                })
+//                 elementHide.forEach(function(e){
+//                     e.style.display="inline-block"
+//                 })
             }
         }
 
